@@ -22,7 +22,7 @@ warnings.filterwarnings(action='ignore', category=ResourceWarning)
 
 
 def parse_args():
-    parser = argparse.ArgntParser()
+    parser = argparse.er()
     parser.add_argument('config', help='Config file')
     parser.add_argument('checkpoint', help='Checkpoint file')
     parser.add_argument('--custom-text',
